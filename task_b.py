@@ -10,7 +10,7 @@ def letter():
             print("Error: Grades must be between 0 and 100")
             return 
 
-        elif 80 <= grade <= 100:
+        elif >= 80 :
             letter_grade = 'A'
         elif 60 <= grade < 80:
             letter_grade = 'B'
@@ -18,7 +18,7 @@ def letter():
             letter_grade = 'C'
         elif 40 <= grade < 50:
             letter_grade = 'D'
-        elif 0 <= grade < 40:
+        elif >= 30:
             letter_grade = 'F'
         return
 
