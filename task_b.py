@@ -2,7 +2,7 @@ def letter():
     letter_grade = {'A', 'B', 'C', 'D', 'F'}
     try:
 
-        grade_input = input("Please enter a numerical grade between 0 and 100: ")
+        grade_input = input("Enter a numerical value between 0 and 100: ")
 
         grade = float(grade_input)
 
