@@ -20,13 +20,12 @@ def letter():
             letter_grade = 'D'
         elif 0 <= grade < 40:
             letter_grade = 'F'
-
+        return
 
         print(f"Your grade is: {letter_grade}")
         return 
     
-    
-except ValueError:
+    except ValueError:
         print("Error: Please enter a number")
-    return
+        return
 letter()      
